@@ -1,6 +1,6 @@
 
 #Set file path that contain all csv
-filepath = 'D:/Work/GMU -US/Spring 2022/AIT 580/Final/data'
+filepath = 'D:/Work/GMU -US/Spring 2022/AIT 580/Nguyen_AIT580/Final_data/data'
 
 
 library(dplyr)
@@ -31,4 +31,4 @@ df <- list.files(path=filepath, full.names = TRUE) %>%
   bind_rows 
 
 #write output csv
-write.csv(df,paste(filepath,'/full.csv',sep = ''), row.names = FALSE)
+write.csv(df,paste(filepath,'/full2.csv',sep = ''), row.names = FALSE)
